@@ -29,6 +29,7 @@ const heros = ["Luffy", "Zoro", "Sanji"]
 // object
 const myObj = {
   name : "jay"
+  // age: 18 
 }
 
 // function
@@ -51,3 +52,34 @@ console.log(typeof myObj);
 console.log(typeof myFunction);
 
 
+// **************************************************
+
+// stack (Primitive) , heap (Non-Primitive)
+
+let myYtName = "JayP"
+
+let anotherName = myYtName 
+anotherName = "JayPatel"
+
+
+console.log(anotherName);
+console.log(myYtName);
+
+
+ // my  expiriment
+
+// anotherMyYtName  = "JP"
+// console.log(anotherMyYtName);
+
+let userOne = {
+    email : "usser@google.com"
+   // upi:  "user@ykl"
+}
+ let userTwo = userOne
+
+ userTwo.email = "Jay@google.com"
+
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
+ 
