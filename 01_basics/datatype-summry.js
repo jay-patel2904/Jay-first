@@ -29,7 +29,7 @@ const heros = ["Luffy", "Zoro", "Sanji"]
 // object
 const myObj = {
   name : "jay"
-  // age: 18 
+ // age : 18 
 }
 
 // function
